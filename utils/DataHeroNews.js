@@ -2,7 +2,7 @@ export const dataBgNews = [
   {
     id:0,
     title: "Ejemplo 1",
-    img: "./img/pr-1.jpg",
+    img: "/Iglesia/img/pr-1.jpg",
   },
   {
     id:1,
