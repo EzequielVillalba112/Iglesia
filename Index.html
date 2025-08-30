@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/Index.css" />
+    <link rel="stylesheet" href="./css/Carousel.css" />
+    <link rel="icon" type="image/x-icon" href="img/iglesia-icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Iglesia Evangélica Bautista Filadelfia</title>
+  </head>
+  <body>
+    <nav class="menu-container">
+      <div class="logo">
+        <h2>TFED</h2>
+      </div>
+      <ul class="items-menu">
+        <li class="item-menu"><a href="#home">Home</a></li>
+        <li class="item-menu"><a href="#about">About</a></li>
+        <li class="item-menu"><a href="#notices">News</a></li>
+        <li class="item-menu"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="carousel" id="home">
+      <div class="progress-bar progress-bar--primary hide-on-desktop">
+        <div class="progress-bar__fill"></div>
+      </div>
+      <!-- Noticias en el fondo del slider -->
+      <header class="main-post-wrapper">
+        <div class="slides">
+          <!-- Noticias en el fondo del slider se agrega con js "DataLoading.js" -->
+        </div>
+      </header>
+
+      <div class="posts-wrapper hide-on-mobile">
+        <!-- Articulos de new notice se agrega con js "DataLoading.js"-->
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-text">
+        <div class="titles">
+          <h3>Obra de la iglesia</h3>
+          <h2>Nosotros predicamos el evangelio en cada sermón</h2>
+        </div>
+        <p>
+          Somos una comunidad de fe dedicada a difundir las enseñanzas de
+          Jesucristo y a servir a nuestras comunidades locales y globales.
+          Nuestra iglesia es un lugar donde todos son bienvenidos,
+          independientemente de su origen o creencias. Creemos en el poder de la
+          oración, la comunión y el servicio, y nos esforzamos por vivir estos
+          valores en nuestra vida diaria. Únete a nosotros para la adoración, la
+          comunión y las oportunidades de hacer una diferencia en el mundo que
+          nos rodea.
+        </p>
+
+        <a href="#">
+          <span>Ver más</span>
+          <svg
+            width="37"
+            height="12"
+            viewBox="0 0 37 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11"
+              stroke="#FF5C00"
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="about-image">
+        <img src="./img/img-about.jpg" alt="About Us" />
+      </div>
+    </section>
+
+    <section class="notices" id="notices">
+      <div class="title-notice">
+        <div class="title-text">
+          <h2>Noticias Recientes</h2>
+          <p>Entérate de las últimas noticias y eventos de nuestra iglesia</p>
+        </div>
+        <a href="#" class="btn-see-more">Más noticias</a>
+      </div>
+      <div class="container-notices"></div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="title-text">
+        <h2>Visítanos y contáctanos</h2>
+      </div>
+      <div class="data-contact-location">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d891.8343993412852!2d-55.237204413861065!3d-27.047322156206665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f811ca06c2af0f%3A0xdf91e4c3882e288e!2sIglesia%20Evang%C3%A9lica%20Bautista%20Filadelfia!5e1!3m2!1ses!2sar!4v1756500158957!5m2!1ses!2sar"
+            width="600"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="contact-data">
+          <ul class="contact-list">
+            <li class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span> Calle Falsa 123, Ciudad</span>
+            </li>
+            <li class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <span> (123) 456-7890</span>
+            </li>
+            <li class="contact-item">
+              <i class="fa-regular fa-envelope"></i>
+              <span> contacto@iglesia.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 Todos los derechos reservados.</p>
+      <div class="social-medias">
+        <a href="#" class="social-media-link">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#" class="social-media-link">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" class="social-media-link">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="./js/DataLoading.js" type="module"></script>
+    <script src="./js/Carousel.js" type="module"></script>
+    <script src="./js/NoticeAdd.js" type="module"></script>
+  </body>
+</html>
