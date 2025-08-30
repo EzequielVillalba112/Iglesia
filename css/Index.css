@@ -270,35 +270,6 @@ body {
     border-radius: 16px;
     overflow: hidden;
   }
-
-  /* .data-contact-location {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-  }
-
-  .contact-list {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    gap: 1rem;
-
-    .contact-item{
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        font-size: 1.8rem;
-        font-weight: 700;
-        i {
-            color: var(--primary-color);
-        }
-
-        span {
-            color: var(--text-color-p);
-        }
-    }
-  } */
 }
 
 .contact {
