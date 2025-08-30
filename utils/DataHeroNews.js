@@ -2,17 +2,17 @@ export const dataBgNews = [
   {
     id:0,
     title: "Ejemplo 1",
-    img: "../img/pr-1.jpg",
+    img: "/img/pr-1.jpg",
   },
   {
     id:1,
     title: "Ejemplo 2",
-    img: "../img/pr-2.jpg",
+    img: "/img/pr-2.jpg",
   },
   {
     id:2,
     title: "Ejemplo 3",
-    img: "../img/pr-3.jpg",
+    img: "/img/pr-3.jpg",
   },
 ];
 
