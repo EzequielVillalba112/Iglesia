@@ -8,10 +8,10 @@ const createCard = (data) => {
   card.innerHTML = `
  <div>
    <h2>${data.titulo}</h2>
-  <p class="card-text">${data.texto}</p>
+  <p class="card-text">${data.textoResumen}</p>
  </div>
   <img src="${data.img}" alt="${data.titulo}">
-  <a href="#">
+  <a href="../page/pr1.html?id=${data.id}">
           <span>Ver más</span>
           <svg
             width="37"
