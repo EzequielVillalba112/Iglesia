@@ -11,7 +11,7 @@ const createCard = (data) => {
   <p class="card-text">${data.textoResumen}</p>
  </div>
   <img src="${data.img}" alt="${data.titulo}">
-  <a href="../page/pr1.html?id=${data.id}">
+  <a href="../page/NoticeId.html?id=${data.id}">
           <span>Ver más</span>
           <svg
             width="37"
