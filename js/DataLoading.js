@@ -21,7 +21,7 @@ const createSlide = (data) => {
         <h1 class="main-post__title">
           ${data.title}
         </h1>
-        <a class="main-post__link" href="../page/NoticeId.html?id=${data.id}&news=true">
+        <a class="main-post__link" href="../page/noticeId.html?id=${data.id}&news=true">
           <span class="main-post__link-text">Ver más</span>
           <svg
             class="main-post__link-icon main-post__link-icon--arrow"
